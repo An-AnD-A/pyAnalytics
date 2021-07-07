@@ -7,7 +7,8 @@ list1  #print when through spyder
 type(list1)  #type of object
 print(list1)  #print when running complete file
 list1
-sorted([100000,5,3,2,4,5,324,43,4,4,3,23,434,53442,244,2245224,523])
+list_t = [100000,5,3,2,4,5,324,43,4,4,3,23,434,53442,244,2245224,523]
+sorted(list_t)
 list2 = ['f','c','d','e',"f"]
 list2
 list2.count('f')
@@ -143,7 +144,7 @@ rollno = [ 4, 1, 3, 2 ]
 marks = [ 90, 50, 60, 70 ] 
 # using zip() to map values 
 mapped = zip(name, rollno, marks) 
-mapped
+print(mapped)
 type(mapped)
 # converting values to print as set 
 mappedSet = set(mapped) 
