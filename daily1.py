@@ -31,7 +31,7 @@ tuple1[1]
 tuple1[1] = 0  #changes not possible, immutable
 tuple1 = (5,45)
 tuple1  #overwriting is possible
-#%%
+
 #Dictionary - key-value pairs : { curly bracket and colon key:value}
 dict1 = {1:'Ramesh', 2:'Suresh', 3:'Priyanka'}
 dict1
